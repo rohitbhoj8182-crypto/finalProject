@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Reveal from "./Reveal.jsx";
 
+//added backend
 const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:5001";
 
 export default function Contact() {
