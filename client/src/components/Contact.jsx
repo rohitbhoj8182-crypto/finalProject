@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Reveal from "./Reveal.jsx";
 
-const API_BASE = "https://backend-4ekz.onrender.com";
+const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:5001";
 
 export default function Contact() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
