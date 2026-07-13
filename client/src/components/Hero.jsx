@@ -101,12 +101,12 @@ export default function Hero({ ready }) {
        
       </div>
 
-      <div className="scroll-cue">
+      {/* <div className="scroll-cue">
         <span>scroll</span>
         <div className="scroll-line">
           <div className="scroll-dot"></div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }
